@@ -1,5 +1,5 @@
 # block18
-
+PART 1
 "Multiplication"
 expect [action] to be [some result]
 expect multiplication(2, 4) to be a number
@@ -33,3 +33,41 @@ steps should be listed for user to navigate to easily
 order confirmation should be displayed upon completion of check out
 cart([price] * [quantity])
 should result in [final price]
+
+PART 2
+Unit tests
+should recognize and display all players in lobby
+should display "See Details" button for each player
+ when "Display Details" is clicked players name, breed, and assigned team or unassigned should be displayed
+ should display larger player picture
+ should display back to main list button
+ should list all teammates as current player when game is played in single player view
+ should have a drop down menu to change team assignment of current player
+ updates should appear in single player view and in roster without a refresh
+should diplay "Remove" button
+ "remove" button should remove player off the roster
+ removed player's name should disappear from roster without a refresh
+should diplay form to add new players
+form should display two inputs
+ one input should display players name
+ one input should display players breed
+form should display one button
+ button should be a submit button
+ button should submit the data and add the player to the roster
+ extra input to provide an image url when adding a player
+ image should be player's picture
+updates should not require a refresh to display changes to roster
+
+Integration tests
+when user uses form to select player, correct player should be recognized
+changes should be applied to correct player
+
+Functonal tests
+as a user, I should be able to utilize the forms to make changes to roster
+all changes should update as they are made without a refresh
+
+Acceptance test
+user can use the forms to make changes to roster
+
+
+
