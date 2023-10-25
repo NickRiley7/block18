@@ -36,7 +36,7 @@ should result in [final price]
 
 PART 2
 Unit tests
-(<br>)should recognize and display all players in lobby  return
+<br>should recognize and display all players in lobby  return
 (<br>)should display "See Details" button for each player  return
  (<br>)when "Display Details" is clicked players name, breed, and assigned team or unassigned should be displayed  return
  (<br>)should display larger player picture  return
