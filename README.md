@@ -36,38 +36,38 @@ should result in [final price]
 
 PART 2
 Unit tests
-<br>should recognize and display all players in lobby  return
-(<br>)should display "See Details" button for each player  return
- (<br>)when "Display Details" is clicked players name, breed, and assigned team or unassigned should be displayed  return
- (<br>)should display larger player picture  return
- (<br>)should display back to main list button  return
- (<br>)should list all teammates as current player when game is played in single player view  return
- (<br>)should have a drop down menu to change team assignment of current player  return
- (<br>)updates should appear in single player view and in roster without a refresh  return
-(<br>)should diplay "Remove" button  return
-(<br>) "remove" button should remove player off the roster  return
-(<br>) removed player's name should disappear from roster without a refresh  return
-(<br>)should diplay form to add new players  return
-(<br>)form should display two inputs  return
- (<br>) one input should display players name  return
- (<br>)one input should display players breed  return
-(<br>)form should display one button  return
- (<br>)button should be a submit button  return
- (<br>)button should submit the data and add the player to the roster  return
- (<br>)extra input to provide an image url when adding a player  return
- (<br>)image should be player's picture  return
-(<br>)updates should not require a refresh to display changes to roster  return
+<br>should recognize and display all players in lobby  
+<br>should display "See Details" button for each player  
+ <br>when "Display Details" is clicked players name, breed, and assigned team or unassigned should be displayed  
+ <br>should display larger player picture  
+ <br>should display back to main list button 
+ <br>should list all teammates as current player when game is played in single player view  
+ <br>should have a drop down menu to change team assignment of current player  
+ <br>updates should appear in single player view and in roster without a refresh  
+<br>should diplay "Remove" button  
+<br> "remove" button should remove player off the roster  
+<br> removed player's name should disappear from roster without a refresh  
+<br>should diplay form to add new players  
+<br>form should display two inputs  
+ <br> one input should display players name  
+ <br>one input should display players breed  
+<br>form should display one button  
+ <br>button should be a submit button  
+ <br>button should submit the data and add the player to the roster  
+ <br>extra input to provide an image url when adding a player  
+ <br>image should be player's picture  
+<br>updates should not require a refresh to display changes to roster  
 
-(<br>)Integration tests  return
-(<br>)when user uses form to select player, correct player should be recognized  return  return
-(<br>)changes should be applied to correct player  return
+<br>Integration tests  
+<br>when user uses form to select player, correct player should be recognized  
+<br>changes should be applied to correct player  
 
-(<br>)Functonal tests  return
-(<br>)as a user, I should be able to utilize the forms to make changes to roster  return
-(<br>)all changes should update as they are made without a refresh  return
+<br>Functonal tests  
+<br>as a user, I should be able to utilize the forms to make changes to roster  
+<br>all changes should update as they are made without a refresh  
 
-(<br>)Acceptance test  return
-(<br>)user can use the forms to make changes to roster  return
+<br>Acceptance test  
+<br>user can use the forms to make changes to roster  
 
 
 
